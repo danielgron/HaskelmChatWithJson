@@ -1,0 +1,287 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'websocket',
+1 verbose cli   '--force' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 warn using --force I sure hope you know what you are doing.
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData websocket
+9 silly fetchNamedPackageData websocket
+10 silly mapToRegistry name websocket
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'websocket',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'websocket',
+13 silly mapToRegistry   name: 'websocket',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri https://registry.npmjs.org/websocket
+15 verbose request uri https://registry.npmjs.org/websocket
+16 verbose request no auth needed
+17 info attempt registry request try #1 at 7:04:32 PM
+18 verbose request id 1179c92fe329c9c6
+19 verbose etag W/"591f38a2-101d8"
+20 verbose lastModified Fri, 19 May 2017 18:25:38 GMT
+21 http request GET https://registry.npmjs.org/websocket
+22 http 304 https://registry.npmjs.org/websocket
+23 verbose headers { date: 'Fri, 26 May 2017 17:04:30 GMT',
+23 verbose headers   via: '1.1 varnish',
+23 verbose headers   'cache-control': 'max-age=300',
+23 verbose headers   etag: 'W/"591f38a2-101d8"',
+23 verbose headers   age: '190',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-served-by': 'cache-bma7032-BMA',
+23 verbose headers   'x-cache': 'HIT',
+23 verbose headers   'x-cache-hits': '1',
+23 verbose headers   'x-timer': 'S1495818271.742961,VS0,VE0',
+23 verbose headers   vary: 'Accept-Encoding' }
+24 silly get cb [ 304,
+24 silly get   { date: 'Fri, 26 May 2017 17:04:30 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     etag: 'W/"591f38a2-101d8"',
+24 silly get     age: '190',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-bma7032-BMA',
+24 silly get     'x-cache': 'HIT',
+24 silly get     'x-cache-hits': '1',
+24 silly get     'x-timer': 'S1495818271.742961,VS0,VE0',
+24 silly get     vary: 'Accept-Encoding' } ]
+25 verbose etag https://registry.npmjs.org/websocket from cache
+26 verbose get saving websocket to C:\Users\Daniel\AppData\Roaming\npm-cache\registry.npmjs.org\websocket\.cache.json
+27 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly install normalizeTree
+29 silly loadCurrentTree Finishing
+30 silly loadIdealTree Starting
+31 silly install loadIdealTree
+32 silly cloneCurrentTree Starting
+33 silly install cloneCurrentTreeToIdealTree
+34 silly cloneCurrentTree Finishing
+35 silly loadShrinkwrap Starting
+36 silly install loadShrinkwrap
+37 silly loadShrinkwrap Finishing
+38 silly loadAllDepsIntoIdealTree Starting
+39 silly install loadAllDepsIntoIdealTree
+40 silly resolveWithNewModule websocket@1.0.24 checking installable status
+41 silly cache add args [ 'websocket', null ]
+42 verbose cache add spec websocket
+43 silly cache add parsed spec Result {
+43 silly cache add   raw: 'websocket',
+43 silly cache add   scope: null,
+43 silly cache add   escapedName: 'websocket',
+43 silly cache add   name: 'websocket',
+43 silly cache add   rawSpec: '',
+43 silly cache add   spec: 'latest',
+43 silly cache add   type: 'tag' }
+44 silly addNamed websocket@latest
+45 verbose addNamed "latest" is being treated as a dist-tag for websocket
+46 info addNameTag [ 'websocket', 'latest' ]
+47 silly mapToRegistry name websocket
+48 silly mapToRegistry using default registry
+49 silly mapToRegistry registry https://registry.npmjs.org/
+50 silly mapToRegistry data Result {
+50 silly mapToRegistry   raw: 'websocket',
+50 silly mapToRegistry   scope: null,
+50 silly mapToRegistry   escapedName: 'websocket',
+50 silly mapToRegistry   name: 'websocket',
+50 silly mapToRegistry   rawSpec: '',
+50 silly mapToRegistry   spec: 'latest',
+50 silly mapToRegistry   type: 'tag' }
+51 silly mapToRegistry uri https://registry.npmjs.org/websocket
+52 verbose addNameTag registry:https://registry.npmjs.org/websocket not in flight; fetching
+53 verbose get https://registry.npmjs.org/websocket not expired, no request
+54 silly addNameTag next cb for websocket with tag latest
+55 silly addNamed websocket@1.0.24
+56 verbose addNamed "1.0.24" is a plain semver version for websocket
+57 silly mapToRegistry name websocket
+58 silly mapToRegistry using default registry
+59 silly mapToRegistry registry https://registry.npmjs.org/
+60 silly mapToRegistry data Result {
+60 silly mapToRegistry   raw: 'websocket',
+60 silly mapToRegistry   scope: null,
+60 silly mapToRegistry   escapedName: 'websocket',
+60 silly mapToRegistry   name: 'websocket',
+60 silly mapToRegistry   rawSpec: '',
+60 silly mapToRegistry   spec: 'latest',
+60 silly mapToRegistry   type: 'tag' }
+61 silly mapToRegistry uri https://registry.npmjs.org/websocket
+62 verbose addRemoteTarball https://registry.npmjs.org/websocket/-/websocket-1.0.24.tgz not in flight; adding
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/websocket/-/websocket-1.0.24.tgz',
+63 verbose addRemoteTarball   '74903e75f2545b6b2e1de1425bc1c905917a1890' ]
+64 info retry fetch attempt 1 at 7:04:32 PM
+65 info attempt registry request try #1 at 7:04:32 PM
+66 http fetch GET https://registry.npmjs.org/websocket/-/websocket-1.0.24.tgz
+67 http fetch 200 https://registry.npmjs.org/websocket/-/websocket-1.0.24.tgz
+68 silly fetchAndShaCheck shasum 74903e75f2545b6b2e1de1425bc1c905917a1890
+69 verbose addTmpTarball C:\Users\Daniel\AppData\Local\Temp\npm-5564-de78d68d\registry.npmjs.org\websocket\-\websocket-1.0.24.tgz not in flight; adding
+70 verbose addTmpTarball already have metadata; skipping unpack for websocket@1.0.24
+71 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+72 silly cache afterAdd websocket@1.0.24
+73 verbose afterAdd C:\Users\Daniel\AppData\Roaming\npm-cache\websocket\1.0.24\package\package.json not in flight; writing
+74 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+75 verbose afterAdd C:\Users\Daniel\AppData\Roaming\npm-cache\websocket\1.0.24\package\package.json written
+76 silly loadAllDepsIntoIdealTree Finishing
+77 silly loadIdealTree Finishing
+78 silly currentTree chatserver-node@1.0.0
+78 silly currentTree +-- debug@2.6.8
+78 silly currentTree +-- is-typedarray@1.0.0
+78 silly currentTree +-- ms@2.0.0
+78 silly currentTree +-- nan@2.6.2
+78 silly currentTree +-- typedarray-to-buffer@3.1.2
+78 silly currentTree +-- websocket
+78 silly currentTree `-- yaeti@0.0.6
+79 silly idealTree chatserver-node@1.0.0
+79 silly idealTree +-- debug@2.6.8
+79 silly idealTree +-- is-typedarray@1.0.0
+79 silly idealTree +-- ms@2.0.0
+79 silly idealTree +-- nan@2.6.2
+79 silly idealTree +-- typedarray-to-buffer@3.1.2
+79 silly idealTree +-- websocket@1.0.24
+79 silly idealTree `-- yaeti@0.0.6
+80 silly generateActionsToTake Starting
+81 silly install generateActionsToTake
+82 warn checkPermissions Missing write access to C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket
+83 silly generateActionsToTake Finishing
+84 silly diffTrees action count 1
+85 silly diffTrees update websocket@1.0.24
+86 silly decomposeActions action count 9
+87 silly decomposeActions remove websocket@1.0.24
+88 silly decomposeActions fetch websocket@1.0.24
+89 silly decomposeActions extract websocket@1.0.24
+90 silly decomposeActions test websocket@1.0.24
+91 silly decomposeActions preinstall websocket@1.0.24
+92 silly decomposeActions build websocket@1.0.24
+93 silly decomposeActions install websocket@1.0.24
+94 silly decomposeActions postinstall websocket@1.0.24
+95 silly decomposeActions finalize websocket@1.0.24
+96 silly runTopLevelLifecycles Starting
+97 silly executeActions Starting
+98 silly install executeActions
+99 silly doSerial global-install 0
+100 silly doParallel fetch 1
+101 verbose correctMkdir C:\Users\Daniel\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+102 verbose lock using C:\Users\Daniel\AppData\Roaming\npm-cache\_locks\staging-9e8039d7a2a5e9fd.lock for C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging
+103 silly doParallel extract 1
+104 silly extract websocket@1.0.24
+105 verbose unbuild node_modules\.staging\websocket-580cd493
+106 silly gentlyRm C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493 is being purged from base C:\Users\Daniel\Documents\Functional\Websocket\chat
+107 verbose gentlyRm don't care about contents; nuking C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493
+108 verbose tar unpack C:\Users\Daniel\AppData\Roaming\npm-cache\websocket\1.0.24\package.tgz
+109 verbose tar unpacking to C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493
+110 silly gentlyRm C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493 is being purged
+111 verbose gentlyRm don't care about contents; nuking C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493
+112 silly gunzTarPerm modes [ '777', '666' ]
+113 silly gunzTarPerm extractEntry package.json
+114 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+115 silly gunzTarPerm extractEntry README.md
+116 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+117 silly gunzTarPerm extractEntry LICENSE
+118 silly gunzTarPerm modified mode [ 'LICENSE', 420, 438 ]
+119 silly gunzTarPerm extractEntry gulpfile.js
+120 silly gunzTarPerm modified mode [ 'gulpfile.js', 420, 438 ]
+121 silly gunzTarPerm extractEntry index.js
+122 silly gunzTarPerm modified mode [ 'index.js', 420, 438 ]
+123 silly gunzTarPerm extractEntry binding.gyp
+124 silly gunzTarPerm modified mode [ 'binding.gyp', 420, 438 ]
+125 silly gunzTarPerm extractEntry builderror.log
+126 silly gunzTarPerm modified mode [ 'builderror.log', 420, 438 ]
+127 silly gunzTarPerm extractEntry .jshintrc
+128 silly gunzTarPerm modified mode [ '.jshintrc', 420, 438 ]
+129 silly gunzTarPerm extractEntry Makefile
+130 silly gunzTarPerm modified mode [ 'Makefile', 420, 438 ]
+131 silly gunzTarPerm extractEntry lib/BufferUtil.fallback.js
+132 silly gunzTarPerm modified mode [ 'lib/BufferUtil.fallback.js', 420, 438 ]
+133 silly gunzTarPerm extractEntry lib/W3CWebSocket.js
+134 silly gunzTarPerm modified mode [ 'lib/W3CWebSocket.js', 420, 438 ]
+135 silly gunzTarPerm extractEntry lib/WebSocketClient.js
+136 silly gunzTarPerm modified mode [ 'lib/WebSocketClient.js', 420, 438 ]
+137 silly gunzTarPerm extractEntry lib/WebSocketConnection.js
+138 silly gunzTarPerm modified mode [ 'lib/WebSocketConnection.js', 420, 438 ]
+139 silly gunzTarPerm extractEntry lib/Validation.js
+140 silly gunzTarPerm modified mode [ 'lib/Validation.js', 420, 438 ]
+141 silly gunzTarPerm extractEntry lib/WebSocketRequest.js
+142 silly gunzTarPerm modified mode [ 'lib/WebSocketRequest.js', 420, 438 ]
+143 silly gunzTarPerm extractEntry lib/WebSocketRouter.js
+144 silly gunzTarPerm modified mode [ 'lib/WebSocketRouter.js', 420, 438 ]
+145 silly gunzTarPerm extractEntry lib/WebSocketRouterRequest.js
+146 silly gunzTarPerm modified mode [ 'lib/WebSocketRouterRequest.js', 420, 438 ]
+147 silly gunzTarPerm extractEntry lib/WebSocketServer.js
+148 silly gunzTarPerm modified mode [ 'lib/WebSocketServer.js', 420, 438 ]
+149 silly gunzTarPerm extractEntry lib/browser.js
+150 silly gunzTarPerm modified mode [ 'lib/browser.js', 420, 438 ]
+151 silly gunzTarPerm extractEntry lib/Validation.fallback.js
+152 silly gunzTarPerm modified mode [ 'lib/Validation.fallback.js', 420, 438 ]
+153 silly gunzTarPerm extractEntry lib/utils.js
+154 silly gunzTarPerm modified mode [ 'lib/utils.js', 420, 438 ]
+155 silly gunzTarPerm extractEntry lib/Deprecation.js
+156 silly gunzTarPerm modified mode [ 'lib/Deprecation.js', 420, 438 ]
+157 silly gunzTarPerm extractEntry lib/version.js
+158 silly gunzTarPerm modified mode [ 'lib/version.js', 420, 438 ]
+159 silly gunzTarPerm extractEntry lib/BufferUtil.js
+160 silly gunzTarPerm modified mode [ 'lib/BufferUtil.js', 420, 438 ]
+161 silly gunzTarPerm extractEntry lib/websocket.js
+162 silly gunzTarPerm modified mode [ 'lib/websocket.js', 420, 438 ]
+163 silly gunzTarPerm extractEntry lib/WebSocketFrame.js
+164 silly gunzTarPerm modified mode [ 'lib/WebSocketFrame.js', 420, 438 ]
+165 silly gunzTarPerm extractEntry CHANGELOG.md
+166 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+167 silly gunzTarPerm extractEntry src/bufferutil.cc
+168 silly gunzTarPerm modified mode [ 'src/bufferutil.cc', 420, 438 ]
+169 silly gunzTarPerm extractEntry src/validation.cc
+170 silly gunzTarPerm modified mode [ 'src/validation.cc', 420, 438 ]
+171 silly gunzTarPerm extractEntry vendor/FastBufferList.js
+172 silly gunzTarPerm modified mode [ 'vendor/FastBufferList.js', 420, 438 ]
+173 silly gentlyRm C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493\node_modules is being purged
+174 verbose gentlyRm don't care about contents; nuking C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493\node_modules
+175 silly doParallel preinstall 1
+176 silly preinstall websocket@1.0.24 C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging\websocket-580cd493
+177 info lifecycle websocket@1.0.24~preinstall: websocket@1.0.24
+178 silly lifecycle websocket@1.0.24~preinstall: no script for preinstall, continuing
+179 silly doReverseSerial remove 1
+180 silly remove C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket
+181 verbose unbuild node_modules\websocket
+182 silly gentlyRm C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket is being purged from base C:\Users\Daniel\Documents\Functional\Websocket\chat
+183 verbose gentlyRm don't care about contents; nuking C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket
+184 silly vacuum-fs Error: EPERM: operation not permitted, lstat 'C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket'
+184 silly vacuum-fs     at Error (native)
+185 verbose unlock done using C:\Users\Daniel\AppData\Roaming\npm-cache\_locks\staging-9e8039d7a2a5e9fd.lock for C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\.staging
+186 silly rollbackFailedOptional Starting
+187 silly rollbackFailedOptional Finishing
+188 silly runTopLevelLifecycles Finishing
+189 silly install printInstalled
+190 warn chatserver-node@1.0.0 No description
+191 verbose If you need help, you may report this error at:
+191 verbose     <https://github.com/npm/npm/issues>
+192 warn chatserver-node@1.0.0 No repository field.
+193 verbose If you need help, you may report this error at:
+193 verbose     <https://github.com/npm/npm/issues>
+194 verbose stack Error: EPERM: operation not permitted, unlink 'C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket'
+194 verbose stack     at Error (native)
+195 verbose cwd C:\Users\Daniel\Documents\Functional\Websocket\chat
+196 error Windows_NT 10.0.15063
+197 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "websocket" "--force"
+198 error node v6.10.3
+199 error npm  v3.10.10
+200 error path C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket
+201 error code EPERM
+202 error errno -4048
+203 error syscall unlink
+204 error Error: EPERM: operation not permitted, unlink 'C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket'
+204 error     at Error (native)
+204 error  { Error: EPERM: operation not permitted, unlink 'C:\Users\Daniel\Documents\Functional\Websocket\chat\node_modules\websocket'
+204 error     at Error (native)
+204 error   errno: -4048,
+204 error   code: 'EPERM',
+204 error   syscall: 'unlink',
+204 error   path: 'C:\\Users\\Daniel\\Documents\\Functional\\Websocket\\chat\\node_modules\\websocket',
+204 error   parent: 'chatserver-node' }
+205 error Please try running this command again as root/Administrator.
+206 verbose exit [ -4048, true ]
